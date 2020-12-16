@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 
@@ -27,7 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 
-
+app.use(bodyParser.json());
 
 // Enregistrement des routeurs
 app.use('/api/auth', userRoutes);
