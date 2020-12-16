@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 
 //import  du router
-
+const userRoutes = require('./routes/User');
 
 
 //acces a la base de donner mongoose
@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 
 
 // Enregistrement des routeurs
-
+app.use('/api/auth', userRoutes);
 
 
 
