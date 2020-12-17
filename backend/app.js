@@ -1,13 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-
+const path = require('path');
 
 
 
 //import  des routes
 const userRoutes = require('./routes/User');
-const Sauce = require('./models/Sauce');
+const sauceRoutes = require('./routes/sauce');
 
 //acces a la base de donner mongoose
 mongoose.connect('mongodb+srv://steve:Maison51@cluster0.jpewg.mongodb.net/Piquante?retryWrites=true&w=majority',
@@ -29,31 +29,11 @@ app.use((req, res, next) => {
 });
 
 app.use(bodyParser.json());
-//creation des produits sauces
-
-app.post('/api/sauces', (req, res, next) => {
-  console.log('apiSauce');
-  delete req.body._id;
-  console.log(req.body);
-  const sauce = new Sauce({
-   
-    ...req.body.sauce
-    
-  });
-  console.log(sauce);
-  sauce.save()
-    .then(() => res.status(201).json({ message: 'Objet enregistré !'}))
-    .catch(error => res.status(400).json({ error }));
-});
-
-
-
-
-
 
 // Enregistrement des routeurs
+app.use('/images', express.static(path.join(__dirname,'images')));
 app.use('/api/auth', userRoutes);
-
+app.use('/api/sauces', sauceRoutes);
 
 
 
