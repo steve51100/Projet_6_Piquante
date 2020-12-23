@@ -10,7 +10,7 @@ const userRoutes = require('./routes/User');
 const sauceRoutes = require('./routes/Sauce');
 
 //acces a la base de donner mongoose
-mongoose.connect('mongodb+srv://steve:Maison51@cluster0.jpewg.mongodb.net/Piquante?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://cluster0.jpewg.mongodb.net/?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
