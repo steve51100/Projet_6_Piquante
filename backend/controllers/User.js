@@ -2,6 +2,8 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const MaskData = require('maskdata');
+const path = require('path');
+const dotenv = require('dotenv').config({ path: process.cwd() + '/.env' });
 
 exports.signup = (req, res, next) => {
   // Hash du mot de passe avec bcrypt
@@ -41,7 +43,7 @@ exports.login = (req, res, next) => {
               // Création d'un token pour sécuriser le compte de l'utilisateur
               token: jwt.sign(
                   { userId: user._id },
-                  'RANDOM_TOKEN_SECRET',
+                  process.env.DB_TOKEN,
                   { expiresIn: '24h' }
               )
           });
