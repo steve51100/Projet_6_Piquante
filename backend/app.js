@@ -3,7 +3,8 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
 const dotenv = require('dotenv').config({ path: process.cwd() + '/.env' });
-
+const filter = require('content-filter');
+const helmet = require("helmet");
 
 
 //import  des routes
@@ -31,6 +32,8 @@ app.use((req, res, next) => {
 });
 
 app.use(bodyParser.json());
+app.use(filter());
+app.use(helmet());
 
 // Enregistrement des routeurs
 app.use('/images', express.static(path.join(__dirname,'images')));
