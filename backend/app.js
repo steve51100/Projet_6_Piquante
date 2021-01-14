@@ -5,7 +5,7 @@ const path = require('path');
 const dotenv = require('dotenv').config({ path: process.cwd() + '/.env' });
 const filter = require('content-filter');
 const helmet = require("helmet");
-
+const mongoSanitize = require('express-mongo-sanitize');
 
 //import  des routes
 const userRoutes = require('./routes/User');
@@ -31,9 +31,11 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(filter());
 app.use(helmet());
+app.use(mongoSanitize());
 
 // Enregistrement des routeurs
 app.use('/images', express.static(path.join(__dirname,'images')));
