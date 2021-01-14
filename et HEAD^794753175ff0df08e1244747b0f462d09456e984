@@ -1,0 +1,145 @@
+[33mcommit 794753175ff0df08e1244747b0f462d09456e984[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Thu Jan 14 14:12:18 2021 +0100
+
+[33mcommit e76af5e0e26621e943d730ab0f2fb3165b569799[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Thu Jan 14 14:10:01 2021 +0100
+
+[33mcommit bac6828012ef771ec8ed7dbb8ad240479cda7e6f[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Thu Jan 14 13:38:28 2021 +0100
+
+     ajustement
+
+[33mcommit 42c911d8524e3a852d4dbb144565f0f77effadd9[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Sat Jan 9 17:40:12 2021 +0100
+
+    ajout des info  readme
+
+[33mcommit b8991c48577944dd573adf7ad4d749f2d4434aca[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Sat Jan 9 16:58:35 2021 +0100
+
+[33mcommit b2a879a761bf7c28f0cffa5914d02e71daee2ebf[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Sat Jan 9 11:10:38 2021 +0100
+
+[33mcommit 13e818abc7f373ca3336a77d7ed6facf0326c00b[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Sat Jan 9 11:09:51 2021 +0100
+
+[33mcommit 0920a0f22acb2f4ef2fe84cabeff948e5258fa28[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Sat Jan 9 11:06:37 2021 +0100
+
+[33mcommit 5b3312fa75d3b8a0424fbf9ec50e99972069e938[m
+Author: steve51100 <69077789+steve51100@users.noreply.github.com>
+Date:   Wed Dec 23 17:24:30 2020 +0100
+
+    Delete .env
+
+[33mcommit 3b6912e6adedd6454e50b1cd61ee7bc779dee430[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 23 17:23:29 2020 +0100
+
+[33mcommit fe245e521622679c6a68f7587b987def12eeb2d7[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 23 17:22:13 2020 +0100
+
+    masquer api dans la base de donner
+
+[33mcommit 940b1450297b51110a7fd8b48ae28afe00922a43[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 23 16:28:56 2020 +0100
+
+[33mcommit af47c19474a35610ebc146fcf92d37bea7423690[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 23 08:30:13 2020 +0100
+
+[33mcommit 2eafb2a21cf74b6b480fe06c71d156598686b52f[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Mon Dec 21 10:43:54 2020 +0100
+
+    ajout des fonctionnaliter  like et dislike
+
+[33mcommit 22f2811c5b3dabd98604092cd31eb58f9d73cfa3[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Fri Dec 18 13:47:27 2020 +0100
+
+    ajout des fonctionaliter de supprime produits
+
+[33mcommit 9ef75cbca3466730dcfc796bce1a677795c58929[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Fri Dec 18 09:09:18 2020 +0100
+
+    ajout de  la fonction modifier (controlleur + route)
+
+[33mcommit a77528dbd6ac3e3f90f931ffd2f8c6a978f48511[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Thu Dec 17 15:17:44 2020 +0100
+
+    ajout des éléments manquant pour la prise en compte de la sauce ajouter
+
+[33mcommit 6efc935964dfc96a6043134e0170eb999687bef4[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Thu Dec 17 10:38:28 2020 +0100
+
+[33mcommit cc70a049e523e4212df69fd3e0c6f63e417776b1[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 16:23:53 2020 +0100
+
+    ajout de fonction  pour cree un article = pb 400 a corriger
+
+[33mcommit 728d73e1aaa0ea2ff2475f5fc9ccc52da20fa3f3[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 15:41:41 2020 +0100
+
+    correction des acces pb server
+
+[33mcommit 938e6449c2b6a6e91f392f6c30f415151411731d[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 15:14:39 2020 +0100
+
+    creation du acces signup et login + correction orthographe dossier qui bloc l'acces
+
+[33mcommit 6c26d03a78be4e9f7d54fd1aeb109eb62fc638cc[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 14:23:26 2020 +0100
+
+     preparation  pour la creation  signup et login
+
+[33mcommit 48fea36d21a10c839cd9fa56fca6815d39b37619[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 14:17:33 2020 +0100
+
+[33mcommit 0a778678c610b74a023b171f5f42e61feddd87b3[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 13:38:42 2020 +0100
+
+    preparation des dossier et fichier pour la futur organisation
+
+[33mcommit 499e0e4775e7072c481367d5002ee41d0ec85bef[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 13:25:08 2020 +0100
+
+    ajout dossier backend + module + stabilisation du server + fichier app.js
+
+[33mcommit 97abb8611aa4f5371b7bc71b53f048d8c19929b0[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Wed Dec 16 13:14:14 2020 +0100
+
+    ajout  des modules front end
+
+[33mcommit d7aea310d79b79e31bdf113366731c72dd9d5824[m
+Author: Steve51100 <sttaz51@hotmail.fr>
+Date:   Sat Dec 12 11:35:42 2020 +0100
+
+    initialisation du projet-6
+
+[33mcommit 468de94e779d3d0a4c92cd4d0b5dd621f8792690[m
+Author: steve51100 <69077789+steve51100@users.noreply.github.com>
+Date:   Thu Dec 10 15:49:19 2020 +0100
+
+    Initial commit
